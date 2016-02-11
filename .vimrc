@@ -3,6 +3,9 @@ set nu
 syntax on
 set tabstop=4
 set autoindent
+set nocompatible
+set showmode
+set laststatus=2
 
 nmap <C-J> o<Esc>k
 imap ² <Esc>:w<CR>i
