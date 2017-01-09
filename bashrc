@@ -3,5 +3,5 @@ function cd() {
     if [ $# -eq 0 ]; then 
         new_directory=${HOME};
     fi;
-    builtin cd "${new_directory}" && clear && pwd &&tree -L 1
+    builtin cd "${new_directory}" && clear && pwd &&tree -t -L 1
 }
